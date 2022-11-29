@@ -1,0 +1,9 @@
+let str="aman";
+let new_str="";
+for(i=0;i>=str;i--){
+new_str+=str[i]}
+
+if(str==new_str){
+console.log(palindrome)}
+else{
+console.log("NO");
