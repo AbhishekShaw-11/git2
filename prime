@@ -1,8 +1,14 @@
-let num=14;
-for(i=num;i>=0;i++){
-if(num%i==0){
-count+++}
+let num = 14;
+let count1 = 0;
+for (let i = 1; i <= num; i++) {
+  if (num % i == 0) {
+    count1++;
+  }
+}
 
-if(count1==2){
-console,Log("PRIME")}
-esle("YES")}
+if (count1 == 2) {
+  console.log(num, "is a prime number");
+}
+else {
+  console.log(num, "is Not a prime number")
+}
